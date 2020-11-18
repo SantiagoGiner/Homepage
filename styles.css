@@ -1,0 +1,112 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: table;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Footer with contact information */
+#footer {
+    text-align: center;
+    background-color: #add8e6;
+    display: table-row;
+    height: 0;
+}
+
+/* When hovering over links, make the text bold and underline it */
+.navbar-brand:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Text with my general information at the home page */
+.general_info {
+    margin: 20px;
+    width: 60%;
+}
+
+.general_text {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Title of home page */
+.display-4 {
+    font-weight: bold;
+}
+
+/* Image to the right in the home page */
+.image_right {
+    margin: 30px;
+    float: right;
+    width: 35%;
+}
+
+/* Buttons and divisions with my hobbies */
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons > div {
+    border-style: solid;
+    border-color: #9f9f9f;
+    border-width: 10px;
+    background-color: #67d863;
+    width: 300px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+/* Buttons to toggle information */
+.toggle_button {
+    border-radius: 10px;
+    background-color: #79e6e7;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.toggle_information {
+    font-size: 18px;
+}
+
+/* Slideshow with my interests */
+.carousel-inner {
+    width: 60%;
+    height: 40%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.carousel > a {
+    background-color: #d3d3d3;
+}
+
+.interest_text {
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+}
+
+.row {
+    margin: 40px;
+}
+
+
+#suggestions {
+    background-color: #e77979;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 290px;
+}

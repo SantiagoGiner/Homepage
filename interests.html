@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>My interests</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Navigation bar to switch between pages, taken from Bootstrap -->
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">&#127968; Home</a>
+            <a class="navbar-brand" href="hobbies.html">&#127939; My Hobbies</a>
+            <a class="navbar-brand" href="interests.html">&#129514; My interests</a>
+            <a class="navbar-brand" href="miscellaneous.html">&#128640; Miscellaneous</a>
+        </nav>
+        <!-- Slideshow with images displaying my interests, taken from Bootstrap -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- image taken from http://blog.cambridgecoaching.com/checking-your-answers-in-physics -->
+                    <img src="physics.jpg" class="d-block w-100" alt="Physics">
+                </div>
+                <div class="carousel-item">
+                    <!-- image taken from https://towardsdatascience.com/calculus-the-mathematics-of-change-f04f38770843 -->
+                    <img src="math.jpeg" class="d-block w-100" alt="Math">
+                </div>
+                <div class="carousel-item">
+                    <!-- image taken from https://www.youtube.com/watch?v=vGw0l8qLlOA -->
+                    <img src="astrophysics.jpg" class="d-block w-100" alt="Astrophysics">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- Description of my interests -->
+        <div>
+            <h2>Physics</h2>
+            <p class="interest_text">
+                For me, physics is more than just a subject, it is a way of thinking, a way of living. What captivates
+                me about it is that, from pure logic and reasoning alone, it allows us to understand what is going on in
+                the world around us, from the very small to the very large.
+            </p>
+        </div>
+        <div>
+            <h2>Math</h2>
+            <p class="interest_text">
+                Mathematics is the language in which sciences like physics and astrophysics are expressed. What amazes
+                me about math is that once a theorem is proved, it stays. Forever. No matter if you are here on Earth in
+                2020 or in a faraway galaxy a million light-years away, mathematical laws still hold.
+            </p>
+        </div>
+        <div>
+            <h2>Astrophysics</h2>
+            <p class="interest_text">
+                When I first learned about the true size of the universe we live in, I was gobsmacked. How can it be
+                that Earth and our solar system and even our galaxy represent such a small part of the universe?
+                That is what initially drew me toward astrophysics: it is a science that goes extremely beyond the
+                mundane.
+            </p>
+        </div>
+        <!-- Footer with contact information -->
+        <div id="footer">
+            Contact me: &#128231;
+            <a href="mailto:santiagoginer@college.harvard.edu">santiagoginer@college.harvard.edu</a>
+            <p>2020 Santiago Giner</p>
+        </div>
+    </body>
+</html>
